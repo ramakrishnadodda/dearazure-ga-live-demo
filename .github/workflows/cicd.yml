@@ -5,9 +5,9 @@ on:
     branches: [ master ]
   pull_request:
     branches: [ master ]
-  env:
-    PUBLISH_PATH: '.'
-    AZURE_WEB_APP: 'dearazure-ga-live-demo'
+env:
+  PUBLISH_PATH: '.'
+  AZURE_WEB_APP: 'dearazure-ga-live-demo'
     
 jobs:
   build:
